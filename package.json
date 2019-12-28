@@ -2,7 +2,7 @@
     "name": "midt",
     "displayName": "midt",
     "description": "Theme based on midt colors",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.41.0"
     },
