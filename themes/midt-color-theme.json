@@ -2,9 +2,9 @@
 	"name": "midt",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#282436",
+		"editor.background": "#201D2B",
 		"editor.foreground": "#FFFCF5",
-		"activityBarBadge.background": "#282436",
+		"activityBarBadge.background": "#201D2B",
 		"sideBarTitle.foreground": "#DEE3ED"
 	},
 	"tokenColors": [
@@ -84,7 +84,8 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
+				"source.css meta.at-rule.include"
 			],
 			"settings": {
 				"foreground": "#F78BB8"
@@ -132,7 +133,10 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"source.css entity.name.tag.reference",
+				"text.html.markdown punctuation.definition.markdown",
+				"text.html.markdown fenced_code.block.language.markdown"
 			],
 			"settings": {
 				"foreground": "#F78BB8"
@@ -186,10 +190,11 @@
 				"source.scss support.type.property-name",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
+				"source.postcss support.type.property-name",
+				"source.css entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#C8D1E0"
+				"foreground": "#A7A7FA"
 			}
 		},
 		{
@@ -236,10 +241,11 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"source.css punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#C79BF2"
+				"foreground": "#C8D1E0"
 			}
 		},
 		{
@@ -462,7 +468,9 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+				"markup.heading.markdown punctuation.definition.heading.markdown",
+				"text.html.markdown string.other.link.title.markdown",
+				"text.html.markdown string.other.link.description.markdown"
 			],
 			"settings": {
 				"foreground": "#1EC963"
