@@ -1,14 +1,16 @@
 {
   "name": "midt",
   "type": "dark",
-  "colors": {},
   "colors": {
-    "contrastBorder": "#371C52",
-    "focusBorder": "#1F1726",
-    "foreground": "#F5F0FA",
-    "widget.shadow": "#1F1726",
-    "selection.background": "#C79BF2",
-    "errorForeground": "#DE1B1B",
+    // done
+    "contrastBorder": "#371C52", // birder on top of e.g. 'outline', and buttons
+    "focusBorder": "#4B2175", // highlighting the border around the items in 'Outline', 'Open editors' etc. Tap the area to see it in effect.
+    "widget.shadow": "#4B2175", // open 'find and replace' to see the shadow
+    "foreground": "#F5F0FA", // used on e.g. the 'close' icon on the selected tab
+    "selection.background": "#DABCF7", // when typing in a search input field and then selecting a word or more, this is the background color
+    "errorForeground": "#F55353", // used to display 'no results' when using find and replace
+    // todo
+    // unsure of effect
     "button.background": "#9656D6",
     "button.foreground": "#F5F0FA",
     "button.hoverBackground": "#7D3CBD",
@@ -81,16 +83,16 @@
     "editorLineNumber.foreground": "#C79BF2",
     "editorLineNumber.activeForeground": "#DABCF7",
     "editorCursor.foreground": "#80a4c2",
-    "editor.selectionBackground": "#371C52",
-    "editor.selectionHighlightBackground": "#371C52",
-    "editor.inactiveSelectionBackground": "#4B2175",
-    "editor.wordHighlightBackground": "#f6bbe533",
-    "editor.wordHighlightStrongBackground": "#e2a2f433",
+    "editor.selectionBackground": "#7D3CBD",
+    "editor.selectionHighlightBackground": "#642B9E",
+    "editor.inactiveSelectionBackground": "#AE74E8",
+    "editor.wordHighlightBackground": "#DE1B1B",
+    "editor.wordHighlightStrongBackground": "#9656D6",
     "editor.findMatchBackground": "#9656D679",
     "editor.findMatchHighlightBackground": "#1085bb5d",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "#7e57c25a",
-    "editor.lineHighlightBackground": "#0003",
+    "editor.lineHighlightBackground": "#371C52",
     "editor.lineHighlightBorder": null,
     "editorLink.activeForeground": null,
     "editor.rangeHighlightBackground": "#7e57c25a",
@@ -217,7 +219,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#59616E"
+        "foreground": "#AEB9CB"
       }
     },
     {
