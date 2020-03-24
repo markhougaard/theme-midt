@@ -1,23 +1,23 @@
 {
-    "name": "midt",
-    "displayName": "midt",
-    "description": "Theme based on midt colors",
-    "version": "1.2.0",
-    "publisher": "marksdk",
-    "repository": "https://github.com/marksdk/theme-midt",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "midt",
-                "uiTheme": "vs-dark",
-                "path": "./themes/midt-color-theme.json"
-            }
-        ]
-    }
+  "name": "midt",
+  "displayName": "midt",
+  "description": "Theme based on midt colors",
+  "version": "1.2.0",
+  "publisher": "marksdk",
+  "repository": "https://github.com/marksdk/theme-midt",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "midt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midt.color-theme.json"
+      }
+    ]
+  }
 }
