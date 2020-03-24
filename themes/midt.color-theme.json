@@ -1,6 +1,9 @@
 {
   "name": "midt",
   "type": "dark",
+  "tokens": {
+    "red": "#DE1B1B"
+  },
   "colors": {
     // done
     "contrastBorder": "#371C52", // birder on top of e.g. 'outline', and buttons
@@ -8,7 +11,9 @@
     "widget.shadow": "#4B2175", // open 'find and replace' to see the shadow
     "foreground": "#F5F0FA", // used on e.g. the 'close' icon on the selected tab
     "selection.background": "#DABCF7", // when typing in a search input field and then selecting a word or more, this is the background color
-    "errorForeground": "#F55353", // used to display 'no results' when using find and replace
+    "errorForeground": {
+      "value": "{tokens.red}"
+    }, // used to display 'no results' when using find and replace
     // todo
     // unsure of effect
     "button.background": "#9656D6",
@@ -75,7 +80,7 @@
     "tab.activeBorder": "#291C36",
     "tab.unfocusedActiveBorder": "#291C36",
     "tab.inactiveBackground": "#1F1726",
-    "tab.inactiveForeground": "#371C52",
+    "tab.inactiveForeground": "#9656D6",
     "tab.unfocusedActiveForeground": "#371C52",
     "tab.unfocusedInactiveForeground": "#371C52",
     "editor.background": "#1F1726",
